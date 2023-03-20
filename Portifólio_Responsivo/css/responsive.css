@@ -1,0 +1,17 @@
+@media screen and (max-width:768px){
+    .icons_menu  img {
+        width: 20px;
+    }
+
+    .icons_menu {
+        gap: 10px;
+    }
+    
+    .menu > a {
+        font-size: 10px;
+    }
+
+    span, ul, li {
+        font-size: 10px;
+    }
+}

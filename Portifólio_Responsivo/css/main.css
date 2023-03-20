@@ -1,0 +1,76 @@
+.menu {
+    background-color: purple;
+    position: fixed;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu > img {
+    position: relative;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.menu > a {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.icons_menu {
+    display: flex;
+    gap: 20px;
+}
+
+.icons_menu  img {
+    width: 50px;
+    filter: invert(1);
+    transition: .6s;
+}
+
+.icons_menu  img:hover {
+    transform: scale(1.2,1.2);
+}
+/* Menu Fixo */
+
+.Content {
+    height: 150%;
+}
+
+.Content > div {
+    height: 50%;display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 21%;
+    margin-right: 1%;
+    gap: 20px;
+}
+
+span, ul, li {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.purple {
+    color: purple;
+}
+
+.segundo_li {
+    margin-left: 15px;
+}
+
+.emprego > li {
+    list-style: none;
+}
+
+.Tit_dois {
+    margin-top: 25px;
+}
